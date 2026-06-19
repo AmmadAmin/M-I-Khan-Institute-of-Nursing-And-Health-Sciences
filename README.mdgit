@@ -1,1 +1,0 @@
-"# M-I-Khan-Institute-of-Nursing-And-Health-Sciences"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/AmmadAmin/M-I-Khan-Institute-of-Nursing-And-Health-Sciences.gitgit push -u origin main
