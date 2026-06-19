@@ -61,7 +61,7 @@ const facultyMembers = [
     name: "Naheed Shams",
     role: "Nursing Lecturer",
     qualification: "BSN, RN",
-    image: "/Naheed-shams.png",
+    image: "/naheed-shams.png",
     quote:
       "Preparing future nurses with evidence-based knowledge and care.",
   },
