@@ -116,49 +116,75 @@ export function Navbar() {
           </Link>
 
           {/* DESKTOP MENU */}
-          <div className="hidden lg:flex items-center gap-1">
-            {navLinks.map((item, i) => (
-              <div
-                key={i}
-                className="relative"
-                onMouseEnter={() =>
-                  item.submenu && setActiveMenu(item.label)
-                }
-                onMouseLeave={() => setActiveMenu(null)}
-              >
-                <Link
-                  href={item.href || "#"}
-                  className="flex items-center gap-1 px-3 xl:px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary/10 transition"
-                >
-                  {item.label}
-                  {item.submenu && (
-                    <ChevronDown className="h-4 w-4" />
-                  )}
-                </Link>
+<div className="hidden lg:flex items-center gap-1">
+  {navLinks.map((item, i) => (
+    <div
+      key={i}
+      className="relative"
+      onMouseEnter={() =>
+        item.submenu && setActiveMenu(item.label)
+      }
+      onMouseLeave={() =>
+        item.submenu && setActiveMenu(null)
+      }
+    >
+      <Link
+        href={item.href || "#"}
+        className="flex items-center gap-1 px-3 xl:px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary/10 transition-all duration-200"
+      >
+        {item.label}
 
-                {/* DROPDOWN */}
-                {item.submenu && activeMenu === item.label && (
-                  <motion.div
-                    initial={{ opacity: 0, y: 8 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0 }}
-                    className="absolute top-full left-0 mt-3 w-64 bg-white border shadow-xl rounded-xl overflow-hidden z-50"
-                  >
-                    {item.submenu.map((sub, idx) => (
-                      <Link
-                        key={idx}
-                        href={sub.href}
-                        className="block px-4 py-3 text-sm hover:bg-gray-50 transition"
-                      >
-                        {sub.label}
-                      </Link>
-                    ))}
-                  </motion.div>
+        {item.submenu && (
+          <ChevronDown
+            className={cn(
+              "h-4 w-4 transition-transform duration-200",
+              activeMenu === item.label &&
+                "rotate-180"
+            )}
+          />
+        )}
+      </Link>
+
+      <AnimatePresence>
+        {item.submenu &&
+          activeMenu === item.label && (
+            <motion.div
+              initial={{
+                opacity: 0,
+                y: 8,
+              }}
+              animate={{
+                opacity: 1,
+                y: 0,
+              }}
+              exit={{
+                opacity: 0,
+                y: 8,
+              }}
+              transition={{
+                duration: 0.2,
+              }}
+              className="absolute top-full left-0 w-64 z-50"
+            >
+              <div className="mt-0 bg-white border shadow-xl rounded-xl overflow-hidden">
+                {item.submenu.map(
+                  (sub, idx) => (
+                    <Link
+                      key={idx}
+                      href={sub.href}
+                      className="block px-4 py-3 text-sm hover:bg-gray-50 transition"
+                    >
+                      {sub.label}
+                    </Link>
+                  )
                 )}
               </div>
-            ))}
-          </div>
-
+            </motion.div>
+          )}
+      </AnimatePresence>
+    </div>
+  ))}
+</div>
           {/* RIGHT SIDE */}
           <div className="flex items-center gap-2">
 
@@ -187,7 +213,7 @@ export function Navbar() {
                       className="w-full border px-3 py-2 rounded-lg outline-none"
                     />
 
-                    <div className="mt-3 max-h-60 overflow-auto">
+                    <div className="pt-1 max-h-60 overflow-auto">
                       {results.map((r) => (
                         <Link
                           key={r.href}
