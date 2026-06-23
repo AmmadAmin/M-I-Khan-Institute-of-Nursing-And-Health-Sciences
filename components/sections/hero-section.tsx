@@ -15,6 +15,7 @@ const slides = [
   { image: "/welcome.jpg" },
   { image: "/hero-2.jpeg" },
   { image: "/hero-3.jpg" },
+  { image: "/4cgpa.jpg" },
 ]
 
 export function HeroSection() {
