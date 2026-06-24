@@ -50,12 +50,12 @@ export function AnnouncementBar() {
             </a>
 
             <a
-              href="mailto:info@mikinhs.com"
+              href="mailto:MIKINHS.edu@gmail.com"
               className="flex items-center gap-1.5 hover:text-gold transition-colors"
             >
               <Mail className="h-3.5 w-3.5 shrink-0" />
               <span className="hidden xl:inline">
-                info@mikinhs.com
+                MIKINHS.edu@gmail.com
               </span>
             </a>
 
