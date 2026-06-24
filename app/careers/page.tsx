@@ -122,7 +122,7 @@ export default function CareerPage() {
   ]
 
   const getGmailLink = (jobTitle: string) =>
-    `https://mail.google.com/mail/?view=cm&fs=1&to=careers@mikhan.edu.pk&su=Application%20for%20${encodeURIComponent(
+    `https://mail.google.com/mail/?view=cm&fs=1&to=MIKINHS.edu@gmail.com&su=Application%20for%20${encodeURIComponent(
       jobTitle
     )}`
 
@@ -302,7 +302,7 @@ export default function CareerPage() {
             </p>
 
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=careers@mikhan.edu.pk"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=MIKINHS.edu@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white text-primary px-8 py-4 rounded-full font-semibold hover:scale-105 transition"

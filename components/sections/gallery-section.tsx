@@ -11,7 +11,7 @@ const galleryImages = [
   { src: "/events.jpg", alt: "College event", category: "Events" },
   { src: "/awards.jpeg", alt: "Award ceremony", category: "Events" },
   { src: "/labs.jpg", alt: "Simulation lab session", category: "Labs" },
-  { src: "/library.avif", alt: "Library study area", category: "Library" },
+  { src: "/facilities/library/librarylab-3.jpg", alt: "Library study area", category: "Library" },
   { src: "/students.jpg", alt: "Student group study", category: "Students" },
   { src: "/clinical.jpg", alt: "Clinical training session", category: "Clinical" },
   { src: "/cricket-events.jpg", alt: "Sports event", category: "Sports" },

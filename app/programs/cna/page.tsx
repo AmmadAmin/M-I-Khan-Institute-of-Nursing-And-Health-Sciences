@@ -110,6 +110,11 @@ export default function CNAPage() {
                   teams while ensuring patient comfort, safety, and quality
                   care.
                 </p>
+                <p className="text-muted-foreground leading-relaxed mb-8">
+                  Admission to the CNA program requires Matric qualification with a minimum
+                  of 45% marks, age between 14–35 years, and successful completion of the
+                  admission interview.
+                </p>
 
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="flex items-center gap-3 p-4 rounded-xl border bg-card">

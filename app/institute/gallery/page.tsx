@@ -19,6 +19,8 @@ import { CTASection } from "@/components/sections/cta-section"
 const galleryImages = [
   { title: "Campus Building Exterior", category: "Campus", image: "/gallery1.jpg" },
   { title: "Lab Setup", category: "Infrastructure", image: "/gallery2.jpg" },
+  { title: "4 CGPA Students ", category: "4 cgpa", image: "/4cgpa.jpg" },
+  { title: "Best Teacher Award", category: "Teacher", image: "/best-teacher.jpg" },
   { title: "Clinical Skills Training", category: "Training", image: "/gallery3.jpg" },
   { title: "Institutional Presentation", category: "Academic", image: "/gallery4.jpg" },
   { title: "Basic Life Support Training", category: "Training", image: "/gallery5.jpg" },

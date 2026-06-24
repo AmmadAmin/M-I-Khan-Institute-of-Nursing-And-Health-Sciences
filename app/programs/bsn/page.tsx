@@ -75,7 +75,7 @@ export default function BSNPage() {
               >
                 <div className="relative aspect-4/3 rounded-2xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/bsn-profile.jpg"
+                    src="/ins-main-wall1.jpg"
                     alt="BS Nursing Program"
                     fill
                     className="object-cover"
@@ -110,7 +110,16 @@ export default function BSNPage() {
                   and experienced faculty mentorship, students develop the
                   skills and confidence needed to excel in modern healthcare
                   environments.
+
                 </p>
+
+                <p className="text-muted-foreground leading-relaxed mb-8">
+                  Admission to the BSN program requires FSc Pre-Medical with a minimum of
+                  50% marks, age between 17–35 years, and successful completion of the
+                  entrance test and interview.
+                </p>
+
+
 
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="flex items-center gap-3 p-4 rounded-xl border bg-card">
@@ -237,7 +246,7 @@ export default function BSNPage() {
               >
                 <div className="relative aspect-4/3 rounded-2xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/bsn-carrer-opp.jpg"
+                    src="/clinical.jpg"
                     alt="Nursing Career"
                     fill
                     className="object-cover"

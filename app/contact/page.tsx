@@ -86,12 +86,12 @@ export default function ContactPage() {
                           +92 333 2810809
                         </a>
                         <br />
-                        <a
+                        {/* <a
                           href="tel:+922112345678"
                           className="hover:text-primary transition"
                         >
                           +92 21 12345678
-                        </a>
+                        </a> */}
                       </p>
                     </div>
                   </div>
@@ -105,18 +105,18 @@ export default function ContactPage() {
                       <h3 className="font-semibold mb-1">Email</h3>
                       <p className="text-muted-foreground">
                         <a
-                          href="mailto:info@mikinhs.com"
+                          href="mailto:MIKINHS.edu@gmail.com"
                           className="hover:text-primary transition"
                         >
-                          info@mikinhs.com
+                          MIKINHS.edu@gmail.com
                         </a>
                         <br />
-                        <a
-                          href="mailto:admissions@mikinhs.com"
+                        {/* <a
+                          href="mailto:MIKINHS.edu@gmail.com"
                           className="hover:text-primary transition"
                         >
-                          admissions@mikinhs.com
-                        </a>
+                          MIKINHS.edu@gmail.com
+                        </a> */}
                       </p>
                     </div>
                   </div>

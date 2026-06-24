@@ -158,7 +158,7 @@ export default function StudentPortalPage() {
                 </p>
 
                 <div className="space-y-3 text-sm text-muted-foreground">
-                  <p>📧 Email: info@mikinhs.com</p>
+                  <p>📧 Email: MIKINHS.edu@gmail.com</p>
                   <p>📞 Phone: +92 333 2810809</p>
                   <p>🕒 Mon - Sat: 9:00 AM - 5:00 PM</p>
                 </div>

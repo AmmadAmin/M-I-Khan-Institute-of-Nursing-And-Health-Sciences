@@ -173,7 +173,7 @@ export function Footer() {
                   href="mailto:info@mikinhs.com"
                   className="text-sm text-white/80 hover:text-gold transition-colors"
                 >
-                  info@mikinhs.com
+                  MIKINHS.edu@gmail.com
                 </a>
               </li>
 

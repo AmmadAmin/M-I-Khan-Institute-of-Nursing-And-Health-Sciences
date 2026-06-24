@@ -5,7 +5,7 @@ import Image from "next/image"
 import {
   HeartHandshake,
   Clock,
- Users,
+  Users,
   ShieldPlus,
   CheckCircle2,
   Stethoscope,
@@ -110,6 +110,11 @@ export default function LHVPage() {
                   awareness through classroom instruction and hands-on
                   clinical training.
                 </p>
+                <p className="text-muted-foreground leading-relaxed mb-8">
+                  Admission to the LHV program requires Matric with Science and a minimum
+                  of 45% marks. Applicants must be female candidates between 14 and 35
+                  years of age.
+                </p>
 
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="flex items-center gap-3 p-4 rounded-xl border bg-card">
@@ -204,6 +209,7 @@ export default function LHVPage() {
                   centers, community clinics, rural healthcare programs,
                   and public healthcare organizations.
                 </p>
+
 
                 <div className="space-y-4">
                   {[

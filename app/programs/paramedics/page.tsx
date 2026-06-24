@@ -252,6 +252,11 @@ export default function ParamedicsPage() {
                   laboratories, healthcare workshops, and supervised clinical
                   training to prepare for professional healthcare careers.
                 </p>
+                <p className="text-muted-foreground leading-relaxed mb-8">
+                  Admission to the Paramedics program requires Matric qualification with a
+                  minimum of 45% marks. Applicants must be between 14–35 years of age and
+                  successfully complete the admission interview.
+                </p>
 
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="flex items-center gap-3 p-4 rounded-xl border bg-card">

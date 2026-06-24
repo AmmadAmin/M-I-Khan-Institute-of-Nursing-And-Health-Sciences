@@ -10,14 +10,14 @@ import React, { useState } from "react"
 
 const partners = [
   {
-    name: "JPMC",
+    name: "Jinnah Postgraduate Medical Centre (JPMC)",
     logo: "/jpmc-logo-bg.png",
     url: "https://www.jpmc.edu.pk",
     description:
       "Premier teaching hospital providing comprehensive clinical training.",
   },
   {
-    name: "Civil Hospital Karachi",
+    name: "Dr. Ruth K. M. Pfau, Civil Hospital Karachi",
     logo: "/civil-logo.jpg",
     url: "https://chk.gov.pk",
     description:

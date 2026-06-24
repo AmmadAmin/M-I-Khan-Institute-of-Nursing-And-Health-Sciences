@@ -26,7 +26,7 @@ const facilities = [
       "Air-conditioned, technology-enabled classrooms designed for interactive and student-centered learning experiences.",
     icon: Building2,
     image:
-      "/modren-cr.jpg",
+      "/modern-class.jpg",
   },
   {
     title: "Advanced Nursing Skills Lab",
@@ -34,7 +34,7 @@ const facilities = [
       "Simulation-based labs equipped with modern medical mannequins and clinical tools for hands-on training.",
     icon: Microscope,
     image:
-      "/advance-skill-lab.jpg",
+      "/adv-skill-nursing-lab.jpg",
   },
   {
     title: "Digital Library",
@@ -42,7 +42,7 @@ const facilities = [
       "Extensive collection of nursing books, research journals, and digital learning resources for academic excellence.",
     icon: BookOpen,
     image:
-      "/library.avif",
+      "/facilities/library/librarylab-4.jpg",
   },
   {
     title: "Computer & IT Lab",
@@ -50,7 +50,7 @@ const facilities = [
       "Fully equipped computer lab with internet access supporting research, assignments, and digital healthcare education.",
     icon: Laptop,
     image:
-      "/com-it-lab.jpg",
+      "/facilities/computer/complab9.jpg",
   },
   {
     title: "Clinical Training Facilities",
@@ -58,7 +58,7 @@ const facilities = [
       "Real-time clinical practice and hospital-based training to build professional healthcare skills.",
     icon: Bed,
     image:
-      "/clinical-trainig.jpg",
+      "/clinical-trainig-facilities.jpg",
   },
   {
     title: "Sports Facilities (Football, Cricket, Volleyball)",
@@ -66,7 +66,7 @@ const facilities = [
       "Dedicated sports grounds and activities promoting physical fitness, teamwork, and leadership development.",
     icon: Users,
     image:
-      "/sports-facilities.jpg",
+      "/sports.jpg",
   },
   {
     title: "Quality Enhancement Cell (QEC)",
@@ -82,7 +82,7 @@ const facilities = [
       "Provides student guidance, counseling, extracurricular support, and leadership development opportunities.",
     icon: Users,
     image:
-      "/std-affairs-cell.jpg",
+      "/gallery11.jpg",
   },
 ]
 
@@ -124,7 +124,7 @@ export default function FacilitiesPage() {
 
             <div className="relative aspect-4/3 rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/campusfacilities.jpg"
+                src="/ins-main-wall1.jpg"
                 alt="Campus Facilities"
                 fill
                 className="object-cover"

@@ -168,7 +168,7 @@ export default function AdminPortalPage() {
                 </p>
 
                 <div className="space-y-3 text-sm text-muted-foreground">
-                  <p>📧 Security: info@mikinhs.com</p>
+                  <p>📧 Security: MIKINHS.edu@gmail.com</p>
                   <p>📞 Admin Office: +92 333 2810809</p>
                   <p>🕒 Access Logs: 24/7 Monitoring Enabled</p>
                 </div>

@@ -109,6 +109,10 @@ export default function CMWPage() {
                   pregnancy care, childbirth assistance, postnatal care, and
                   community healthcare awareness under professional supervision.
                 </p>
+                <p className="text-muted-foreground leading-relaxed mb-8">
+                  Admission to the CMW program requires Matric with a minimum of 45% marks.
+                  The program is designed for female candidates between 14 and 35 years of age.
+                </p>
 
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="flex items-center gap-3 p-4 rounded-xl border bg-card">
